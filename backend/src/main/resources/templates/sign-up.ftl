@@ -9,7 +9,7 @@
 </head>
 <body>
     <section class="wrapper">
-      <div class="logo">Zen<span>Kicker</span></div>
+      <div class="logo"><span></span></div>
       <div class="title">Sign up</div>
       <form id="sign-up-form" method="POST">
         <#if override_referrer??>

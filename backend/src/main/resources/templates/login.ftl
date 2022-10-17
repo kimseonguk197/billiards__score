@@ -10,7 +10,7 @@
 <body>
 
 <section class="wrapper">
-  <div class="logo">Zen<span>Kicker</span></div>
+  <div class="logo"><span></span></div>
   <div class="title">Sign in</div>
   <form id="login-form" method="POST">
     <#if override_referrer??>
