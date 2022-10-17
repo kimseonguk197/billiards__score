@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .error {
+    color: #C74242;
+    padding-bottom: 18px;
+}
+.eye_open {
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+}
+
+.eye_close {
+    width: 16px;
+    height: 10px;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+}
+
+.input_error {
+    border: 1px solid #C74242 !important;
+}
+.wrapper form {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    font-size: 60px;
+    padding: 20px;
+    margin: 100px 0 50px 0;
+    display: block;
+    color: #008CE4;
+    text-decoration: none;
+    text-align: center;
+}
+.logo>span {
+    color: black;
+}
+
+.title {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.input_block {
+    width: 300px;
+    margin: auto auto 30px auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.input_block input {
+    font-size: 1em;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 1px hsl(0,0%,80%);
+    border-radius: 4px;
+    outline: none;
+    text-align: left;
+}
+.input_block input:focus {
+    border-color: #2684FF;
+}
+
+.check_button_block {
+    width: 120px;
+    margin-top: 20px;
+}
+.check_button_block button {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+    border-left: solid 3px transparent;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.check_button_block button:hover {
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+.check_button_block button:active {
+    box-shadow: 0 3px 4px rgba(0,0,0,0.2);
+}
+.sign-up-link {
+    margin-top: 40px;
+    text-decoration: none;
+    color: #008CE4
+}
+.sign-up-link:hover {
+    text-decoration: underline;
+}
+@media (max-width: 820px) {
+    .wrapper {
+        padding: 40px 20px;
+        box-sizing: border-box;
+        min-height: 100vh;
+    }
+    .logo {
+        margin: 0;
+    }
+    .input_block {
+        min-height: 40px;
+    }
+}
