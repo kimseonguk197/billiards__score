@@ -15,7 +15,7 @@ const signIn = () => window.location.href = Config.get('login_callback')
 export const HorizontalMenu = ({currentUser}) => {
   return (
     <Content>
-      <Title to="/">Zen<span>Kicker</span></Title>
+      <Title to="/"><span></span></Title>
       <TopBar>
         <Navigation>
           <MainMenuLink link="/players">Players</MainMenuLink>

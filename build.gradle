@@ -1,3 +1,0 @@
-allprojects {
-    group = 'io.zensoft.kicker'
-}

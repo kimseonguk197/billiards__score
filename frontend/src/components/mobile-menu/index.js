@@ -33,7 +33,7 @@ class MobileMenu extends React.Component {
     const {currentUser} = this.props;
     return(
       <Content onClick={this.handleOnBackgroundClick}>
-        <Title to="/">Zen<span>Kicker</span></Title>
+        <Title to="/"><span></span></Title>
         <MenuButton onClick={this.onMenuClick}>{this.state.isOpen ?  <CloseIco /> : <MenuIco />}</MenuButton>
         {
           this.state.isOpen &&

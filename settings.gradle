@@ -1,4 +1,4 @@
-rootProject.name = 'kicker'
+rootProject.name = 'billiards__score'
 
 include('backend')
 include('frontend')
